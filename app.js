@@ -1,7 +1,7 @@
-var express = 	require("express"),
+var express 		= 	require("express"),
 	app		= 	express()
-	puerto 	= 	8081, 
-	bodyParser 	= require('body-parser');
+	puerto 		= 	8081, 
+	bodyParser 	= 	require('body-parser');
 
 //Para indicar que se envía y recibe información por medio de Json...
 app.use(bodyParser.json());
